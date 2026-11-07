@@ -1,0 +1,140 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Dossier colaboradores · empresadesatascos.com</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:wght@400;500;600;700&display=swap');
+@page{size:A4;margin:0}
+:root{--ink:#121617;--bg:#f1f3ee;--lime:#dcfb45;--mute:#5b6160;--line:#c9ccc6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Instrument Sans',sans-serif;color:var(--ink);font-size:13.5px;line-height:1.5}
+.page{width:210mm;height:297mm;padding:17mm 16mm 0;position:relative;background:var(--bg);page-break-after:always;overflow:hidden}
+.dark{background:var(--ink);color:var(--bg)}
+h1,h2,.big{font-family:Anton,sans-serif;font-weight:400;text-transform:uppercase;line-height:1.02}
+h2{font-size:44px;margin-bottom:26px}
+.lime{color:var(--lime)}
+.brand{font-weight:700;font-size:14px}.brand b{color:var(--lime)}
+.foot{position:absolute;left:16mm;right:16mm;bottom:12mm;border-top:1px solid var(--line);padding-top:12px;display:flex;justify-content:space-between;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.dark .foot{border-color:#2a3032;color:#c8ccc6}
+/* cover */
+.cover h1{font-size:96px;margin-top:62mm;letter-spacing:.01em}
+.cover p.sub{font-size:19px;color:#cfd3cd;max-width:440px;margin-top:30px;line-height:1.5}
+.stats{position:absolute;left:16mm;right:16mm;bottom:48mm;border-top:2px solid var(--lime);padding-top:16px;display:flex;gap:30px}
+.stats div{flex:1}.stats .big{font-size:50px;color:var(--lime)}.stats span{font-size:12.5px;color:#cfd3cd;display:block;margin-top:4px}
+/* p2 */
+.lead{font-size:17px;max-width:480px}.lead2{font-size:17px;color:var(--mute);max-width:480px;margin-top:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--ink);margin-top:30px}
+.grid div{padding:16px 18px 18px 0;border-bottom:1px solid var(--line)}.grid div:nth-child(even){padding-left:20px;border-left:1px solid var(--line)}
+.grid b{display:block;font-size:15.5px;margin-bottom:4px}.grid p{font-size:12.5px}
+.why{background:var(--ink);color:var(--bg);margin-top:34px;padding:30px 32px;display:flex;gap:40px}
+.why h3{font-family:Anton;font-weight:400;font-size:32px;color:var(--lime);text-transform:uppercase;width:170px;flex:none}
+.why p{font-size:13.5px;margin-bottom:10px}
+/* p3 */
+.two{display:flex;gap:40px}.two>.l{flex:1.3}.two>.r{flex:1}
+.step{padding:16px 0;border-top:1px solid var(--line)}.step:first-of-type{border-top:2px solid var(--ink)}
+.step h4{font-size:17px;margin-bottom:4px}.step p{font-size:13px}
+.tag{display:inline-block;background:var(--ink);color:var(--lime);font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:4px 9px;text-transform:uppercase;margin:6px 0}
+.mock{background:var(--ink);color:#fff;padding:20px 18px;border-radius:2px}
+.mock .t{font-family:Anton;font-size:19px;text-transform:uppercase;margin-bottom:14px;line-height:1.1}
+.mock .top{background:var(--lime);color:var(--ink);padding:14px;display:flex;gap:12px;height:140px}
+.mock .logo{width:78px;background:var(--ink);flex:none}
+.mock .top .n{font-family:Anton;font-size:26px;line-height:1}.mock .top small{font-weight:700;font-size:11px;display:block;margin-top:56px}
+.mock .row{display:flex;gap:8px;margin-top:8px}.mock .row i{flex:1;height:38px;border:1px solid #3b4346;font-style:normal;font-size:10px;color:#8b9291;padding:5px 7px}
+.mock p{font-size:10.5px;color:#aeb4b2;margin-top:12px}
+.note{border-left:4px solid var(--lime);padding:2px 0 2px 16px;color:var(--mute);font-size:12.5px;margin-top:34px}
+.time{display:flex;margin-top:34px;border:2px solid var(--ink)}
+.time>div{padding:18px 22px}.time .a{background:var(--lime);width:45%}.time .b{flex:1}
+.time small{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;display:block}
+.time .big{font-size:46px;margin:4px 0}.time .big em{font-style:normal;font-family:'Instrument Sans';font-size:14px;font-weight:600;text-transform:none}
+.time p{font-size:12.5px}
+/* p4 */
+table{width:100%;border-collapse:collapse;margin-top:6px}
+th{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);text-align:left;padding:10px 12px 10px 0;border-bottom:2px solid var(--ink)}
+th.r,td.r{text-align:right}
+td{padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td .big{font-size:28px}td b{font-size:15px}td small{display:block;color:var(--mute);font-size:11.5px;margin-top:2px}
+tr.hl td{background:#e6fb8c;padding-left:12px}tr.hl td:first-child{padding-left:12px}
+.fine{font-size:11.5px;color:var(--mute);margin-top:10px}
+h5{font-family:Anton;font-weight:400;font-size:24px;text-transform:uppercase;margin:26px 0 8px}
+.cols{display:flex;gap:36px}.cols>div{flex:1}
+ul.c{list-style:none}ul.c li{padding:8px 0 8px 26px;border-bottom:1px solid var(--line);position:relative;font-size:12.5px}
+ul.c li:before{content:"";position:absolute;left:0;top:12px;width:11px;height:11px;background:var(--lime);border:1.5px solid var(--ink)}
+ol.s{list-style:none}ol.s li{display:flex;gap:16px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.5px}ol.s b{font-family:Anton;font-weight:400;font-size:20px;line-height:1.1}
+.cta{background:var(--ink);margin-top:24px;padding:22px 30px;display:flex;justify-content:space-between;align-items:center}
+.cta .big{color:var(--lime);font-size:28px}.cta a{color:#fff;font-weight:700;font-size:16px;border-bottom:3px solid var(--lime);text-decoration:none}
+</style></head><body>
+
+<section class="page dark cover">
+ <div class="brand">empresa<b>desatascos</b>.com</div>
+ <h1>Que te llamen a ti cuando algo se <span class="lime">atasca</span> en tu provincia</h1>
+ <p class="sub">Buscamos un colaborador por provincia para el directorio de empresas de desatascos de España.</p>
+ <div class="stats">
+  <div><div class="big">52</div><span>páginas provinciales: las 50 provincias, Ceuta y Melilla</span></div>
+  <div><div class="big">1</div><span>colaborador por provincia, ni uno más</span></div>
+  <div><div class="big">60 €</div><span>al mes durante los 3 primeros meses de prueba</span></div>
+ </div>
+ <div class="foot" style="border:0;color:#c8ccc6"><span>Dossier de colaboradores</span><span>Noviembre 2026</span></div>
+</section>
+
+<section class="page">
+ <h2>Qué es empresadesatascos.com</h2>
+ <p class="lead">Un directorio con una página por provincia. Cada una reúne empresas de desatascos con su teléfono, su web y una ficha que explica qué hacen. Cada página tiene texto propio escrito para su zona, no la misma plantilla con el nombre de la provincia cambiado.</p>
+ <p class="lead2">Quien llega aquí tiene el problema encima: un fregadero que no traga, una bajante atascada, una arqueta que rebosa en el patio. No quiere rellenar un formulario y esperar tres presupuestos. Quiere un teléfono, y lo quiere ya.</p>
+ <div class="grid">
+  <div><b>Un solo colaborador por provincia</b><p>Solo una empresa ocupa la plaza de colaborador en cada provincia. En tu zona no compartes ese puesto con ninguna otra.</p></div>
+  <div><b>La llamada es tuya</b><p>El botón de llamada marca tu número. No revendemos el contacto a otras empresas ni cobramos comisión por los trabajos que cierres.</p></div>
+  <div><b>Hecha para el móvil</b><p>La mayoría de urgencias se buscan desde el teléfono, con el agua en el suelo. Desde la ficha se llama con un toque.</p></div>
+  <div><b>Pagas solo por tu zona</b><p>Colaboras en la provincia donde trabajas. Si cubres varias, eres colaborador en cada una.</p></div>
+ </div>
+ <div class="why"><h3>Por qué ahora</h3><div>
+  <p>La web es de reciente creación y ya hay empresas interesadas. La colaboración no se amplía: solo hay un colaborador por provincia.</p>
+  <p>La plaza se asigna por orden de contratación. Quien entra primero se queda con su provincia mientras mantenga la colaboración.</p></div></div>
+ <div class="foot"><span>empresadesatascos.com</span><span>2</span></div>
+</section>
+
+<section class="page">
+ <h2>Ser colaborador</h2>
+ <div class="two">
+  <div class="l">
+   <div class="step"><h4>La ficha de colaborador</h4><span class="tag">1 colaborador por provincia</span>
+    <p>La primera ficha de la página provincial y la única a doble ancho. Lleva panel de identidad con tu foto o logo, texto de presentación, botón de llamada y enlace a tu web. Es lo primero que ve quien entra en la provincia, antes de bajar.</p></div>
+   <div class="step"><h4>Texto de presentación propio</h4><p>Describe tu empresa, tus servicios y tu zona de trabajo con tus palabras.</p></div>
+   <div class="step"><h4>Exclusividad provincial</h4><p>Si la plaza de tu provincia es tuya, no la tiene nadie más mientras mantengas la colaboración.</p></div>
+  </div>
+  <div class="r"><div class="mock"><div class="t">Desatascos en tu provincia</div>
+   <div class="top"><div class="logo"></div><div><div class="n">Colaborador</div><small>Tu ficha</small></div></div>
+   <div class="row"><i>Listado</i><i>Listado</i></div><div class="row"><i>Listado</i><i>Listado</i></div>
+   <p>Así se ve una página provincial. La ficha de colaborador ocupa el ancho de dos.</p></div></div>
+ </div>
+ <div class="time">
+  <div class="a"><small>Meses 1 a 3 · prueba</small><div class="big">60 € <em>/ mes</em></div><p>Misma tarifa en todas las provincias.</p></div>
+  <div class="b"><small>Desde el mes 4</small><div class="big">90 – 180 € <em>/ mes</em></div><p>Según provincia: 90 € en general, 120 € en siete grandes ciudades y 180 € en Madrid y Barcelona.</p></div>
+ </div>
+ <div class="note">La ficha de colaborador se identifica como publicidad, como exige la ley. Lo que se contrata es visibilidad y llamadas en la provincia, no enlaces para posicionar tu web: el enlace va marcado como patrocinado, que es lo que pide Google para los enlaces de pago.</div>
+ <div class="foot"><span>empresadesatascos.com</span><span>3</span></div>
+</section>
+
+<section class="page">
+ <h2>Tarifas y condiciones</h2>
+ <table>
+  <tr><th>Provincia</th><th class="r">Meses 1 a 3</th><th class="r">Desde el mes 4</th></tr>
+  <tr class="hl"><td><b>Madrid y Barcelona</b><small>1 colaborador por provincia</small></td><td class="r"><span class="big">60 €</span></td><td class="r"><span class="big">180 €</span> <small>al mes</small></td></tr>
+  <tr><td><b>Bilbao, Sevilla, Valencia, Zaragoza, A Coruña, San Sebastián y Málaga</b><small>1 colaborador por provincia</small></td><td class="r"><span class="big">60 €</span></td><td class="r"><span class="big">120 €</span> <small>al mes</small></td></tr>
+  <tr><td><b>Resto de provincias</b><small>1 colaborador por provincia</small></td><td class="r"><span class="big">60 €</span></td><td class="r"><span class="big">90 €</span> <small>al mes</small></td></tr>
+ </table>
+ <p class="fine">Precios por provincia y mes. IVA no incluido.</p>
+ <div class="cols">
+  <div><h5>Condiciones</h5><ul class="c">
+   <li>Solo hay un colaborador por provincia.</li>
+   <li>Los tres primeros meses son de prueba, a 60 €/mes.</li>
+   <li>Desde el cuarto mes se aplica la tarifa de tu provincia.</li>
+   <li>Si trabajas en varias provincias, eres colaborador en cada una.</li>
+   <li>La plaza se asigna por orden de contratación.</li>
+   <li>La ficha va identificada como publicidad.</li></ul></div>
+  <div><h5>Cómo colaborar</h5><ol class="s">
+   <li><b>1</b>Elige tu provincia.</li>
+   <li><b>2</b>Escríbenos y te confirmamos si la plaza está libre.</li>
+   <li><b>3</b>Mándanos nombre comercial, teléfono, web, foto o logo y un texto breve sobre tu empresa.</li>
+   <li><b>4</b>Publicamos tu ficha de colaborador en la página de tu provincia.</li></ol></div>
+ </div>
+ <div class="cta"><span class="big">Reserva tu provincia</span><a>info@empresadesatascos.com</a></div>
+ <div class="foot"><span>empresadesatascos.com</span><span>4</span></div>
+</section>
+</body></html>
